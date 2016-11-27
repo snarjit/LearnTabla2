@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="narjitsingh.learntabla">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <supports-screens android:smallScreens="true"
+
+        android:normalScreens="true"
+
+        android:largeScreens="true"
+
+        android:xlargeScreens="true"
+
+        android:anyDensity="true"
+
+        android:resizeable="true"/>
+    <application
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<activity android:name=".TeentaalVideo"-->
+            <!--android:configChanges="keyboardHidden|orientation|screenSize"/>-->
+        <!--/>-->
+
+
+        <!--<activity android:name=".Layoutcheck"-->
+            <!--android:configChanges="keyboardHidden|orientation|screenSize"/>-->
+            <!--android:name="narjitsingh.learntabla.Teentaal-->
+
+        <activity android:name=".Basics_Adapter_Activity"/>
+        <activity android:name=".Kehrwa_Audio1"/>
+
+        <activity android:name=".ListView_Teentaal"/>
+        <activity android:name=".ListView_Kehrwa"/>
+        <activity android:name=".Dadra_Taal_ListView"/>
+        <activity android:name=".Deepchandi_ListView"/>
+        <activity android:name=".Rupak_ListView"/>
+        <activity android:name=".Jhaptaal_ListView"/>
+        <activity android:name=".Ektaal_ListView"/>
+        <activity android:name=".Sultaal_ListView"/>
+        <activity android:name=".Chaartaal_ListView"/>
+        <activity android:name=".Panjtaal_ListView"/>
+
+        <activity android:name=".Teentaal_Theka_Audio"/>
+        <activity android:name=".Teentaal_Audio2"/>
+        <activity android:name=".Teentaal_Audio3"/>
+        <activity android:name=".Teentaal_Audio4"/>
+        <activity android:name=".Teentaal_Audio5"/>
+        <activity android:name=".Teentaal_Audio6"/>
+        <activity android:name=".Teentaal_Audio7"/>
+        <activity android:name=".Teentaal_Audio8"/>
+        <activity android:name=".Teentaal_Audio9"/>
+        <activity android:name=".Teentaal_Audio10"/>
+        <activity android:name=".Teentaal_Audio11"/>
+        <activity android:name=".Teentaal_Audio12"/>
+        <activity android:name=".Teentaal_Audio13"/>
+        <activity android:name=".Teentaal_Audio14"/>
+        <activity android:name=".Teentaal_Audio15"/>
+
+
+        <activity android:name=".Kehrwa_Audio2"/>
+        <activity android:name=".Kehrwa_Audio3"/>
+        <activity android:name=".Kehrwa_Audio4"/>
+        <activity android:name=".Kehrwa_Audio5"/>
+        <activity android:name=".Kehrwa_Audio6"/>
+        <activity android:name=".Kehrwa_Audio7"/>
+        <activity android:name=".Kehrwa_Audio8"/>
+        <activity android:name=".Kehrwa_Audio9"/>
+        <activity android:name=".Kehrwa_Audio10"/>
+        <activity android:name=".Kehrwa_Audio11"/>
+        <activity android:name=".Kehrwa_Audio12"/>
+        <activity android:name=".Kehrwa_Audio13"/>
+        <activity android:name=".Kehrwa_Audio14"/>
+        <activity android:name=".Kehrwa_Audio15"/>
+        <activity android:name=".Kehrwa_Audio16"/>
+
+        <activity android:name=".Kehrwa_Audio17"/>
+
+        <activity android:name=".Dadra_Audio1"/>
+        <activity android:name=".Dadra_Audio2"/>
+        <activity android:name=".Dadra_Audio3"/>
+        <activity android:name=".Dadra_Audio4"/>
+        <activity android:name=".Dadra_Audio5"/>
+        <activity android:name=".Dadra_Audio6"/>
+        <activity android:name=".Dadra_Audio7"/>
+
+        <activity android:name=".Deepchandi_Audio1"/>
+
+        <activity android:name=".Deepchandi_Audio2"/>
+        <activity android:name=".Deepchandi_Audio3"/>
+        <activity android:name=".Deepchandi_Audio4"/>
+        <activity android:name=".Deepchandi_Audio5"/>
+
+        <activity android:name=".Rupak_Audio1"/>
+        <activity android:name=".Rupak_Audio2"/>
+        <activity android:name=".Rupak_Audio3"/>
+        <activity android:name=".Rupak_Audio4"/>
+        <activity android:name=".Rupak_Audio5"/>
+        <activity android:name=".Rupak_Audio6"/>
+        <activity android:name=".Rupak_Audio7"/>
+
+        <activity android:name=".Jhaptaal_Audio1"/>
+
+        <activity android:name=".Jhaptaal_Audio2"/>
+        <activity android:name=".Jhaptaal_Audio3"/>
+        <activity android:name=".Jhaptaal_Audio4"/>
+        <activity android:name=".Jhaptaal_Audio5"/>
+
+
+        <activity android:name=".Ektaal_Audio1"/>
+        <activity android:name=".Ektaal_Audio2"/>
+        <activity android:name=".Ektaal_Audio3"/>
+        <activity android:name=".Ektaal_Audio4"/>
+
+
+        <activity android:name=".Chaartaal_Audio1"/>
+        <activity android:name=".PanjTaal_Audio1"/>
+
+        <activity android:name=".Sultaal_Audio1"/>
+        <activity android:name=".Sultaal_Audio2"/>
+
+
+
+
+    </application>
+</manifest>

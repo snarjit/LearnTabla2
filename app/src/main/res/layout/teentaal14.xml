@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/teentaal_name"
+        android:adjustViewBounds="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+
+        <ImageButton
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/teentaal14_audio_slow"
+            android:src="@drawable/play"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"/>
+
+
+        <ImageButton
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/teentaal14_audio_medium"
+            android:src="@drawable/play"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@null"
+
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp" />
+
+        <ImageButton
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/teentaal14_audio_fast"
+            android:src="@drawable/play"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@null"
+
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp" />
+
+        <ImageButton
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/teentaal14_audio_stop"
+            android:src="@drawable/stop"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@null"
+
+            android:layout_gravity="center_vertical" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Slow14"
+
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Medium"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Fast"
+
+            android:layout_marginRight="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Stop"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="15dp" />
+    </TableRow>
+
+</RelativeLayout>

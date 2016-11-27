@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image">
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:id="@+id/gridLayout"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp">
+
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:id="@+id/button1"
+            android:src="@drawable/basics_name"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@null"
+
+
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginBottom="20dp" />
+
+        <ImageButton
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:id="@+id/imageButton2"
+                android:src="@drawable/teentaal_name"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:background="@null"
+
+
+
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_below="@+id/gridLayout"
+            android:layout_toRightOf="@+id/imageButton5"
+            android:layout_toEndOf="@+id/imageButton5"
+            android:layout_marginLeft="20dp" />
+
+        <ImageButton
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:id="@+id/imageButton3"
+                android:src="@drawable/kehrwa_name"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:background="@null"
+
+
+
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_marginLeft="20dp" />
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+
+            android:src="@drawable/dadra_name"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/imageButton4" />
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/deepchandi_name"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@null"
+
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/imageButton5" />
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/rupak_name"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@null"
+
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/imageButton6" />
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+
+            android:src="@drawable/jhaptaal_name"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/imageButton7" />
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:id="@+id/imageButton8"
+
+            android:src="@drawable/ektaal_name"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_below="@+id/gridLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp" />
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+
+            android:src="@drawable/sultaal_name"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_below="@+id/gridLayout"
+            android:layout_toLeftOf="@+id/imageButton5"
+            android:layout_toStartOf="@+id/imageButton5"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/imageButton9" />
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/chaartaal_name"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/imageButton10" />
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+
+            android:src="@drawable/panjtaal_name"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/imageButton11" />
+
+    </GridLayout>
+
+
+</RelativeLayout>

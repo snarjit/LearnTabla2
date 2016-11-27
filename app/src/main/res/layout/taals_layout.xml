@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/background_image">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:id="@+id/id_listView"
+        android:contextClickable="false"
+        android:drawSelectorOnTop="false"
+        android:fastScrollAlwaysVisible="false"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:clickable="true"
+        android:layout_gravity="center_horizontal"
+        android:stackFromBottom="false"
+        android:smoothScrollbar="false"
+        android:scrollingCache="true"
+        android:textFilterEnabled="true"
+        android:dividerHeight="3dp" />
+</LinearLayout>
